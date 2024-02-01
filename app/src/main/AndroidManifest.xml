@@ -48,6 +48,10 @@
         android:configChanges="orientation|screenSize"
         android:windowSoftInputMode="adjustResize" />
       <activity
+        android:name=".activities.NodeRedActivity"
+        android:configChanges="orientation|screenSize"
+        android:windowSoftInputMode="adjustResize" />
+      <activity
         android:name=".activities.CrashActivity"
         android:exported="true" />
 

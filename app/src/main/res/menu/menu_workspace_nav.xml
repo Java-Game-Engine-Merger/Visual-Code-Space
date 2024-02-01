@@ -20,4 +20,8 @@
     android:id="@+id/menu_settings"
     android:icon="@drawable/ic_settings"
     android:title="@string/menu_settings" />
+  <item
+    android:id="@+id/menu_node_red"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:icon="@drawable/ic_node_red" android:title="@string/menu_node_red"/>
 </menu>
