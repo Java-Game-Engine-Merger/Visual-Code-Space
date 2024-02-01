@@ -45,6 +45,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.json.JSONException
 
+/**
+ * Node-Red的浏览器和命令行端
+ */
 class NodeRedActivity : BaseActivity(), TerminalViewClient, TerminalSessionClient {
   private val logger = Logger.newInstance("NodeRedActivity")
   private var binding: ActivityTerminalBinding? = null
