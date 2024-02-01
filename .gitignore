@@ -86,3 +86,6 @@ lint/tmp/
 
 .uuid
 .androidide/
+
+depc.idea/
+.idea/
