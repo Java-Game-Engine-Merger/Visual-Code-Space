@@ -18,15 +18,14 @@
     android:id="@+id/workspace_text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_toEndOf="@id/nav_rail"
-    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-    android:ellipsize="end"
-    android:textSize="15sp"
     android:layout_marginLeft="5dp"
-    android:singleLine="true"
+    android:layout_toEndOf="@id/nav_rail"
+    android:ellipsize="end"
     android:paddingStart="5dp"
-    android:text="Workspace"
-    android:paddingTop="8dp" />
+    android:paddingTop="8dp"
+    android:singleLine="true"
+    android:text="@string/workspace"
+    android:textAppearance="@style/TextAppearance.Material3.TitleLarge" android:textSize="15sp"/>
 
   <TextView
     android:id="@+id/title"
